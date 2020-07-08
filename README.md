@@ -1,2 +1,2 @@
 # webstudio
- my cshool project
+ my school project
