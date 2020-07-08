@@ -10,7 +10,6 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap"
       rel="stylesheet"
     />
-
     <title>WebStudio</title>
   </head>
 
@@ -18,29 +17,30 @@
     <!--logo and nav-->
     <header class="main-header">
       <nav>
-        <a href="#" class="logo"
-          ><img src="../webstudio/assets/image/logo.svg" alt="logo"
-        /></a>
-        <ul>
-          <li><a href="#">Студия</a></li>
-          <li><a href="#">Портфолио</a></li>
-          <li><a href="#">Контакты</a></li>
-        </ul>
+        <div class="logo-style">
+          <a href="#" class="logo">
+            <span class="font--style--blue">Web</span>
+            <span>Studio</span>
+          </a>
+        </div>
+        <div class="header-info">
+            <p><a href="#">Студия</a></p>
+            <p><a href="#">Портфолио</a></p>
+            <p><a href="#">Контакты</a></p>
+        </div>
       </nav>
-      <div class="contacts">
-        <a href="#">info@devstudio.com</a>
-        <a href="#">+38 096 111 11 11</a>
+      <div class="our-contacts">
+        <p><a href="#">info@devstudio.com</a></p>
+        <p><a href="#">+38 096 111 11 11</a></p>
       </div>
     </header>
     <!--main-container-->
     <main>
       <!--section banner-->
-      <div class="banner">
-        <section>
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <a href="#">Заказать услугу</a>
+        <section class="main-banner">
+          <h1 class="font-banner-style">Эффективные решения для вашего бизнеса</h1>
+          <p class="button-style"><a href="#">Заказать услугу</a></p>
         </section>
-      </div>
       <!--info section-->
       <section>
         <ul>
@@ -79,41 +79,33 @@
         </ul>
       </section>
       <!--our projects-->
-      <section>
+      <section class="our-projects">
         <h3>Чем мы занимаемся</h3>
         <ul>
           <li>
-            <figure>
               <img
-                src="./assets/image/computer.svg"
-                alt="computer"
-                width="350"/>
-              <figcaption>Десктопные приложения</figcaption>
-            </figure>
+                src="./assets/image/computer.svg" alt="computer" width="350"/>
+              <h2>Десктопные приложения</h2>
           </li>
           <li>
-            <figure>
               <img src="./assets/image/phone.svg" alt="phone" width="350" />
-              <figcaption>Мобильные приложения</figcaption>
-            </figure>
+              <h2>Мобильные приложения</h2>
           </li>
           <li>
-            <figure>
               <img src="./assets/image/screen.svg" alt="screen" width="350" />
-              <figcaption>Дизайнерские решения</figcaption>
-            </figure>
+              <h2>Дизайнерские решения</h2>
           </li>
         </ul>
       </section>
       <!--our team-->
-      <section>
+      <section class="our-team">
         <h3>Наша команда</h3>
         <ul>
           <!--Card 1-->
           <li>
             <figure>
               <img src="./assets/image/img(1).svg" alt="Николай Кучеренко">
-              <p>Николай Кучеренко</p>
+              <h2>Николай Кучеренко</h2>
               <p>Product Designer</p>
               <ul>
                 <li>
@@ -135,7 +127,7 @@
           <li>
             <figure>
               <img src="./assets/image/img(2).svg" alt="Ольга Иванова">
-              <p>Ольга Иванова</p>
+              <h2>Ольга Иванова</h2>
               <p>Frontend Developer</p>
               <ul>
                 <li>
@@ -157,7 +149,7 @@
           <li>
             <figure>
               <img src="./assets/image/img(3).svg" alt="Андрей Шевченко">
-              <p>Андрей Шевченко</p>
+              <h2>Андрей Шевченко</h2>
               <p>Marketing</p>
               <ul>
                 <li>
@@ -179,7 +171,7 @@
           <li>
             <figure>
               <img src="./assets/image/img(4).svg" alt="Иван Николаев">
-              <p>Иван Николаев</p>
+              <h2>Иван Николаев</h2>
               <p>UI Designer</p>
               <ul>
                 <li>
@@ -200,7 +192,7 @@
         </ul>
       </section>
       <!--Our costomers-->
-      <section>
+      <section class="our-costomers">
         <h3>Постоянные клиенты</h3>
         <ul>
           <li>
@@ -226,17 +218,20 @@
     </main>
     <!--info footer-->
     <footer>
-      <a href="#" class="logo"
-        ><img src="../webstudio/assets/image/logo.svg" alt="logo"
-      /></a>
-      <address>
-        <ul>
-          <li><span>г. Киев, пр-т Леси Украинки, 26</span></li>
-          <li><a href="">info@example.com</a></li>
-          <li><a href="">+38 099 111 11 11</a></li>
-        </ul>
-      </address>
-      <div>
+      <div class="first-column-footer">
+        <div class="logo-style-footer">
+          <a href="#" class="logo-footer">
+            <span class="font--style--blue">Web</span>
+            <span>Studio</span>
+          </a>
+        </div>
+        <address>
+            <span>г. Киев, пр-т Леси Украинки, 26</span>
+            <span><a href="">info@example.com</a></span>
+            <span><a href="">+38 099 111 11 11</a></span> 
+        </address>
+      </div>
+      <div class="social-networks-footer">
         <h4>присоединяйтесь</h4>
         <ul>
           <li>
@@ -251,10 +246,10 @@
           <li>
             <a href="#"><img src="./assets/image/in.svg" alt="in" /></a>
           </li>
-        </ul>
+        </ul>   
       </div>
       <!--button-->
-      <div>
+      <div class="button-footer">
         <h4>Подпишитесь на рассылку</h4>
         <form action="doc.php" method="post">
           <input type="text" name="fio" value="E-mail" size="30" />
