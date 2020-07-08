@@ -1,3 +1,2 @@
 # webstudio
- my school project
-Home work
+ my cshool project
